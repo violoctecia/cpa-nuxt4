@@ -1,0 +1,11 @@
+<script setup lang="ts">
+import ForgotPasswordForm from '~/components/auth/ForgotPasswordForm.vue';
+
+definePageMeta({
+	layout: 'auth',
+});
+</script>
+
+<template>
+	<ForgotPasswordForm />
+</template>
