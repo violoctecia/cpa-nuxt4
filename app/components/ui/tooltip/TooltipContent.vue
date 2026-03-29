@@ -6,11 +6,11 @@ import { TooltipArrow, TooltipContent, TooltipPortal, useForwardPropsEmits } fro
 import type { HTMLAttributes } from 'vue';
 
 defineOptions({
-	inheritAttrs: false,
+    inheritAttrs: false,
 });
 
 const props = withDefaults(defineProps<TooltipContentProps & { class?: HTMLAttributes['class'] }>(), {
-	sideOffset: 4,
+    sideOffset: 4,
 });
 
 const emits = defineEmits<TooltipContentEmits>();

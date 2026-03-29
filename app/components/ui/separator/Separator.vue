@@ -6,8 +6,8 @@ import { Separator } from 'reka-ui';
 import type { HTMLAttributes } from 'vue';
 
 const props = withDefaults(defineProps<SeparatorProps & { class?: HTMLAttributes['class'] }>(), {
-	orientation: 'horizontal',
-	decorative: true,
+    orientation: 'horizontal',
+    decorative: true,
 });
 
 const delegatedProps = reactiveOmit(props, 'class');

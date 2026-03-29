@@ -128,7 +128,8 @@
 			sans-serif;
 	}
 	button:not(:disabled),
-	[role='button']:not(:disabled) {
+	[role='button']:not(:disabled),
+	[data-slot='collapsible-trigger']:not(:disabled) {
 		cursor: pointer;
 	}
 }
