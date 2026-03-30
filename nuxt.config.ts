@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
 	compatibilityDate: '2025-07-15',
 	devtools: { enabled: true },
-	modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/color-mode', '@vueuse/motion/nuxt'],
+	modules: [
+		'@nuxt/eslint',
+		'@nuxt/fonts',
+		'@nuxtjs/tailwindcss',
+		'shadcn-nuxt',
+		'@nuxtjs/color-mode',
+		'@vueuse/motion/nuxt',
+		'@pinia/nuxt',
+	],
 	css: ['~/assets/main.css'],
 	shadcn: {
 		/**

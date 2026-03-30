@@ -54,7 +54,7 @@
 	--primary-foreground: oklch(0.985 0 0);
 	--secondary: oklch(0.97 0 0);
 	--secondary-foreground: oklch(0.205 0 0);
-	--muted: oklch(0.97 0 0);
+	--muted: oklch(93.48% 0.00105 11.62);
 	--muted-foreground: oklch(0.556 0 0);
 	--accent: oklch(0.97 0 0);
 	--accent-foreground: oklch(0.205 0 0);
@@ -129,8 +129,10 @@
 	}
 	button:not(:disabled),
 	[role='button']:not(:disabled),
-	[data-slot='collapsible-trigger']:not(:disabled) {
-		cursor: pointer;
+	[data-slot='collapsible-trigger']:not(:disabled),
+	[data-slot='select-item']:not(:disabled),
+	[data-slot='command-item']:not(:disabled) {
+		cursor: pointer !important;
 	}
 }
 

@@ -5,7 +5,8 @@ export interface LoginData {
 }
 
 export function useAuthApi() {
-	const baseUrl = '';
+	const baseUrl = 'https://api.testjulo.ru/api';
+
 	return {
 		login: (data: LoginData) =>
 			$fetch(`${baseUrl}/users/login/credentials`, {
