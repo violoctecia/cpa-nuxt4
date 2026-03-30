@@ -132,7 +132,7 @@ const cards = computed(() => ({
 	],
 	large: {
 		title: 'Конверсия',
-		value: ((totalClicks.value + totalCalls.value) / totalLeads.value).toFixed(2) + '%',
+		value: ((totalLeads.value / (totalClicks.value + totalCalls.value)) * 100).toFixed(2) + '%',
 	},
 }));
 
