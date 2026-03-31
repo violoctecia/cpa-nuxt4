@@ -18,12 +18,7 @@ import ModeToggle from '~/components/global/ModeToggle.vue';
 					to="/"
 					class="flex items-center gap-2 font-medium"
 				>
-					<div>
-						<img
-							src="/images/logo.svg"
-							alt=""
-						/>
-					</div>
+					<Logo />
 				</nuxt-link>
 
 				<ModeToggle />

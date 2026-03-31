@@ -2,10 +2,7 @@
 	<header>
 		<div class="container flex items-center justify-between gap-4 py-4">
 			<nuxt-link to="/">
-				<img
-					src="/images/logo.svg"
-					alt=""
-				/>
+				<Logo />
 			</nuxt-link>
 			<div class="flex items-center">
 				<ModeToggle />

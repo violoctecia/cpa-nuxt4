@@ -131,7 +131,9 @@
 	[role='button']:not(:disabled),
 	[data-slot='collapsible-trigger']:not(:disabled),
 	[data-slot='select-item']:not(:disabled),
-	[data-slot='command-item']:not(:disabled) {
+	[data-slot='command-item']:not(:disabled),
+	[data-slot='dialog-trigger']:not(:disabled),
+	[data-slot='dropdown-menu-item']:not(:disabled) {
 		cursor: pointer !important;
 	}
 }

@@ -27,12 +27,12 @@ const nav: NavGroup[] = [
 		items: [
 			{
 				title: 'Главная',
-				url: '/',
+				url: '/affiliate/',
 				icon: House,
 			},
 			{
 				title: 'Поддержка',
-				url: '/',
+				url: '/affiliate/',
 				icon: MessageCircleMore,
 			},
 			{
@@ -42,12 +42,12 @@ const nav: NavGroup[] = [
 					{
 						title: 'Баланс',
 						icon: Landmark,
-						url: '/',
+						url: '/affiliate/',
 					},
 					{
 						title: 'Транзакции',
 						icon: ArrowLeftRight,
-						url: '/',
+						url: '/affiliate/',
 					},
 				],
 			},
@@ -62,15 +62,15 @@ const nav: NavGroup[] = [
 				items: [
 					{
 						title: 'Все сети',
-						url: '/',
+						url: '/affiliate/networks/all/',
 					},
 					{
 						title: 'Мои сети',
-						url: '/',
+						url: '/affiliate/',
 					},
 					{
 						title: 'Мои заявки',
-						url: '/',
+						url: '/affiliate/',
 					},
 				],
 			},

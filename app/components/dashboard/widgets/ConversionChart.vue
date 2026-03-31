@@ -43,11 +43,11 @@
 
 				<div class="rounded-md bg-muted/50 p-4 flex flex-col gap-4">
 					<div class="">
-						<p class="text-xs text-muted-foreground mb-1">{{ cards.large.title }}</p>
-						<p class="text-xl font-medium">{{ cards.large.value.toLocaleString('ru-RU') }}</p>
+						<p class="text-xs md:text-sm text-muted-foreground mb-1">{{ cards.large.title }}</p>
+						<p class="text-xl md:text-2xl font-medium">{{ cards.large.value.toLocaleString('ru-RU') }}</p>
 					</div>
 					<div class="flex items-start gap-4">
-						<p class="text-xs text-muted-foreground">
+						<p class="text-xs md:text-sm leading-relaxed text-muted-foreground">
 							Конверсия отражает процентное соотношение успешных лидов (одобренные CPA заявки и подтверждённые
 							звонки) к общему количеству трафика (собранные клики и поступившие звонки).
 						</p>
