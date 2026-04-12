@@ -8,17 +8,10 @@
 				<ModeToggle />
 				<Button
 					size="sm"
-					variant="secondary"
 					class="mr-2 ml-4"
 					as-child
 				>
 					<nuxt-link to="/auth/login">Войти</nuxt-link>
-				</Button>
-				<Button
-					size="sm"
-					as-child
-				>
-					<nuxt-link to="/auth/register">Зарегистрироваться</nuxt-link>
 				</Button>
 			</div>
 		</div>
